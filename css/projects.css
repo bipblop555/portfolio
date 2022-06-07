@@ -1,0 +1,156 @@
+.count_top{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    padding-top: 150px;
+}
+
+/* SVG */
+.diamonds_proj{
+    width: 40px;
+    fill:#da5f4c00;
+
+    transition: fill .9s;
+}
+.diamonds_proj_disapear{
+    fill: var(--t-color);
+
+    transition: fill .9s;
+}
+.rotating_diamonds_45{
+    transform: rotate(90deg);
+
+    transition: transform .9s;
+}
+.rotating_diamonds{
+    transform: rotate(0deg);
+
+    transition: rotate infinite;
+
+}
+.portfolio{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0);
+
+    margin-top: 0;
+
+    transition: color .9s, margin-top .9s;
+}
+.portfolio_disapear{
+    color: black;
+    margin-top: 25px;
+
+    transition: color .9s, margin-top .9s;
+}
+
+.div_proj{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0);
+
+    font-size: 20px;
+    text-transform: uppercase;
+
+    transition : margin-top .9s, margin-bottom .9s,
+                color .9s;
+}
+
+.div_proj_disapear{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: black;
+
+    transition : margin-top .9s, margin-bottom .9s,
+                color .9s;
+}
+.first_proj,
+.second_proj{
+    display: flex;
+
+    position: relative;
+
+    width: 70vw;
+    max-width: 100%;
+
+    margin: auto;
+    margin-top: 150px;
+ 
+    padding-top: 40px;
+    padding-bottom: 100px;
+    
+    border: 1px solid black;
+}
+
+.curtain{
+    position: absolute;
+    
+    height: 100%;
+    width: 100%;
+    
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    
+    backdrop-filter: blur(2px);
+    margin-top: -40px;
+
+    transition: height .9s;
+}
+.curtain_drop{
+    height: 0;
+
+    transition: height .8s;
+} 
+.curtain_drop_late{
+    height: 0;
+
+    transition: height 1.3s;
+}
+.first_proj > .pic,
+.second_proj > .pic{
+    height: 250px;
+
+    width: 35%;
+    max-width: 100%;
+
+    height: 15px;
+}
+.first_proj > .pic > figure,
+.second_proj > .pic > figure{
+    margin-top: -40px;
+}
+.pic_descr{
+    padding-left: 30px;
+}
+.first_proj > .pic_descr > .title,
+.second_proj > .pic_descr > .title{
+    padding-left: 10px;
+    padding-right: 10px;
+
+    text-transform: uppercase;
+    font-size: 20px;
+
+    background-color: var(--t-color);
+    color: var(--m-color);
+    display: inline;
+}
+.descr_proj,
+.descr_proj_b{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 600;
+
+    width: 50%;
+    max-width: 100%;
+}
+
+.pic_descr > a {
+    color: black;
+    font-weight: 600;
+}

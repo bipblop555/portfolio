@@ -1,0 +1,138 @@
+/* LA PREMIERE PARTIE ET SA TRANSI */
+.first{
+    text-transform: uppercase;
+
+}
+.wholePadding{
+    padding-left: 120px;
+    padding-bottom: 100px;
+    padding-top: 200px;
+
+    transition: padding-bottom .9s, padding-left .9s,
+                padding-top .9s;
+}
+
+.englobe{
+    width: 900px;
+    display: flex;
+}
+
+/* NAME ET SES TRANSITIONS */
+.name{
+    max-width: 100%;
+    font-size: 50px;
+    line-height: 80px;
+
+    color: rgba(0, 0, 0, 0);
+
+}
+.showName{
+    padding-top: 100px;
+    padding-left: 150px;
+
+    color: black;
+
+    transition: padding-top .4s, padding-left .9s, color .9s;
+}
+.showNameTr{
+    color: black;
+}
+
+/* DIAMONDS ET SA TRANSITION */
+.diamonds_name{
+    width: 25px;
+    fill: #da5f4c00;
+}
+.diamonds_name_show{
+    fill: var(--t-color);
+    padding-bottom:6px;
+
+    transition: fill .9s, padding-bottom .9s;
+}
+.diamonds_name_tr{
+    width: 25px;
+    fill: var(--t-color);
+
+    padding-bottom: 6px;
+    margin-right: 5px;
+}
+
+/* SPE (FRONT BACK) ET SA TRANSITION */
+.spe{
+    display: flex;
+    justify-content: space-between;
+
+    width: 500px;
+    max-width: 100%;
+    font-size: 40px;
+
+    color: rgba(0, 0, 0, 0);
+
+
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.diamonds_spe{
+    width: 25px;
+    fill: #da5f4c00;
+}
+.showSpe{
+    color: black;
+
+    padding-left: 150px;
+    padding-top: 50px;
+    
+    transition: padding-left .9s, padding-top .9s;
+}
+.diamonds_spe_show{
+    fill: var(--t-color);
+
+    transition: fill .9s, padding-bottom .9s;
+}
+
+/* BOUTONS RENCONTRE ET LEUR TRANSI */
+.f_btn{
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+
+    transition: background-color .9s, color .0s;
+}
+.rencontre > button:last-child{
+    margin-left: -5px;
+}
+.rencontre{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+button{ 
+    padding: 15px;
+
+    color: rgba(0, 0, 0, 0);
+
+    border: none;
+    background-color: transparent;
+}
+.showBtnsA{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+
+    transition: border .9s, background-color .9s, color .9s;
+}
+.showBtnsB{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+
+    transition: border .9s, background-color .9s, color .9s;
+}
+
+
+.blck_btn{
+    background-color: black;
+    color: white;
+}
+.whte_btn{
+    background-color: white;
+    color: black;
+}

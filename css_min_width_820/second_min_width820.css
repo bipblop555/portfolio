@@ -1,0 +1,44 @@
+@media (max-width:820px) {
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+    .movingSecond{
+        padding-top: 20px;
+    }
+    .first_last{
+        display: flex;
+
+        margin-left: 300px;
+    }
+    .first_last > p {
+        font-size: 30px;
+
+        padding-top: 50px;
+    }
+    .main{
+        margin-top: -50px;
+    }
+    .diamonds_sec{
+        padding-top: 55px;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    .sec_part{
+        padding-top: 50px;
+        width: 100vw;
+    }
+    .sec_part > p {
+        text-align: center;
+    }
+    .sec_part_sec{
+        font-size: 30px;
+        padding-bottom: 30px;
+    
+        line-height: 35px;
+    }
+    .liens_pro{
+        justify-content: space-evenly;
+        margin-left: 85px;
+    }
+}

@@ -1,0 +1,22 @@
+@media (max-width:414px) {
+   header{
+       width: 100vw;
+       max-width: 100%;
+
+       justify-content: space-evenly;
+   }
+   header > ul:first-child{
+        margin-left: 0;
+    }
+    header > ul:last-child{
+        margin-right: 0;
+    }
+    header > ul > li {
+        font-size: 12px;
+    }
+    .head_btn{
+        padding: 10px;
+        border: 1px solid black;
+        color: black;
+    }
+}

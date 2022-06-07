@@ -1,0 +1,58 @@
+header{
+    position: fixed;
+    width: 100vw;
+    max-width: 100%;
+    height: 10vh;
+
+    border-bottom: 2px solid black;
+    background-color: var(--m-color);
+
+    z-index: 999;
+}
+header > ul{
+    cursor: pointer;
+    color: black;
+
+    font-weight: 500;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    height: 100%;
+
+    transition: color .9s, font-weight .9s;
+}
+.glowingLinks{
+    font-weight: 700;
+    color: var(--t-color);
+
+    transition: color .9s, font-weight .9s;
+}
+.activelinks{
+    color: var(--t-color);
+    font-weight: 700;
+    transition: color .1s;
+}
+header > ul:first-child{
+    margin-left: 100px;
+}
+header > ul:last-child{
+    margin-right: 100px;
+}
+header > ul > li {
+    font-size: 15px;
+}
+.head_btn{
+    padding: 15px;
+    border: 1px solid black;
+    color: black;
+}
+.largerPadding{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+li > button:hover{
+    background-color: black;
+    color: white;
+}

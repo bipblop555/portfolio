@@ -1,0 +1,43 @@
+@import './reset.css';
+@import './variables.css';
+@import './body.css';
+@import './header.css';
+@import './first.css';
+@import './inter.css';
+@import './second.css';
+@import './projects.css';
+@import '../css/them.css';
+
+/* since here min-width files */
+/* min width 820 */
+
+@import '../css_min_width_820/header_min820.css';
+@import '../css_min_width_820/first_min_width820.css';
+@import '../css_min_width_820/second_min_width820.css';
+@import '../css_min_width_820/projects_min_width820.css';
+
+/* since here min-width files */
+/* min width 414 */
+
+@import '../css_min_width_414/header_min414.css';
+@import '../css_min_width_414/first_min_width414.css';
+@import '../css_min_width_414/second_min_width414.css';
+@import '../css_min_width_414/projects_min_width414.css';
+
+/* since here min-width files */
+/* min width 375 */
+
+@import '../css_min_width_375/header_min375.css';
+@import '../css_min_width_375/first_min_width375.css';
+@import '../css_min_width_375/second_min_width375.css';
+@import '../css_min_width_375/projects_min_width375.css';
+
+
+/* since here min-width files */
+/* min width 320 */
+
+@import '../css_min_width_320/header_min320.css';
+@import '../css_min_width_320/first_min_width320.css';
+@import '../css_min_width_320/second_min_width320.css';
+@import '../css_min_width_320/projects_min_width320.css';
+

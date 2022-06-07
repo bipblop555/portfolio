@@ -1,0 +1,50 @@
+@media (max-width:414px) {
+    .first_proj,
+    .second_proj{
+        width: 100vw;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .curtain{
+        width: 100%;
+        max-width: 100%;
+
+        position: absolute;
+
+        height: 100%;
+        max-height: 100%;
+    }
+
+    .curtain_drop{
+        height: 0;
+    }
+    .first_proj > .pic,
+    .second_proj > .pic{
+        width: 320px;
+        height: 320px;
+        max-width: 100%;
+    }
+    .pic_descr{
+        flex-direction: column;
+        padding: 0;
+    }
+    .first_proj > .pic_descr > .title,
+    .second_proj > .pic_descr > .title{
+        display: inline;
+        width: 100%;
+        max-width: 100%;
+
+        margin-left: 145px;
+    }
+    .descr_proj,
+    .descr_proj_b{
+        width: 100%;
+        text-align: center;
+    }
+    .pic_descr > a {
+        margin-left: 165px;
+    }
+}

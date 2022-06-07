@@ -1,0 +1,37 @@
+@media (max-width:414px) {
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+    .movingSecond{
+        padding-top: 20px;
+    }
+    .first_last{
+        display: flex;
+
+        margin-left: 100px;
+    }
+    .first_last > p {
+        font-size: 20px;
+
+        padding-top: 50px;
+    }
+    .main{
+        margin-top: -150px;
+    }
+    .diamonds_sec{
+        padding-top: 50px;
+        margin-left: 15px;
+    }
+    .sec_part{
+        padding-top: 50px;
+        width: 100vw;
+    }
+    .sec_part > p {
+        text-align: center;
+    }
+    .liens_pro{
+        justify-content: space-evenly;
+        margin-left: 25px;
+    }
+}
